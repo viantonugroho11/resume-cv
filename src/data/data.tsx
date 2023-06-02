@@ -25,7 +25,7 @@ import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
 import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
-import profilepic from '../images/profilepic.jpg';
+import profilepic from '../images/foto-profil.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
   About,
@@ -180,7 +180,7 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
+    title: 'PISPK',
     description: 'Give a short description of your project here.',
     url: 'https://timbaker.me',
     image: porfolioImage1,
@@ -252,16 +252,10 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
-  },
-  {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'November 2022',
+    location: 'University of Gunadarma',
+    title: 'Bachelor of Information Systems',
+    content: <p></p>,
   },
 ];
 
@@ -272,8 +266,17 @@ export const experience: TimelineItem[] = [
     title: 'Jr. Software Engineer',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Service Development for Neobank: I am involved in developing a neobank service that manages payment flows and
+        finances for agents.
+        <br />
+        Internal Wallet Service Integration with Neobank: I am responsible for developing integration between internal
+        wallet services and Neobank.
+        <br />
+        PPOB Transaction Flow Development: I was involved in developing PPOB (Payment Point Online Banking) transaction
+        flows.
+        <br />
+        Service Maintenance for Amartha Agents: My duty is to perform maintenance on the services used by Amartha
+        agents.
       </p>
     ),
   },
@@ -285,7 +288,53 @@ export const experience: TimelineItem[] = [
       <p>
         API Service Documentation: I am responsible for comprehensively documenting all API services used.
         <br />
-        Service Creation for Internal User Management: I play a role in developing services that enable the effective management of internal company users.
+        Service Creation for Internal User Management: I play a role in developing services that enable the effective
+        management of internal company users.
+      </p>
+    ),
+  },
+  {
+    date: 'September 2021 - November 2022',
+    location: 'Ministry of Health of the Republic of Indonesia',
+    title: 'Intern Software Engineer',
+    content: (
+      <p>
+        PISPK Service Development: I am responsible for developing the PISPK Service. This service is an application
+        that has been used nationally and has been implemented in various health centers in Indonesia. My job is to make
+        sure development runs smoothly and meets user needs.
+        <br />
+        Notification Service Development: Apart from that, I am also involved in the development of the Notification
+        Service. This service aims to send notifications to users, manage notifications, and log related notifications.
+        I am responsible for developing and ensuring optimal functionality of this service.
+        <br />
+        Data Engineer Development: I am also involved in the development of a Data Engineer, whose job is to carry out
+        ETL (Extract, Transform, Load) processes for data used in dashboard applications. In this case, I am responsible
+        for ensuring the data is available properly and can be accessed through the dashboard application.
+        <br />
+        Service Testing: As part of my work, I also test the services that have been developed. This aims to ensure
+        optimal quality and performance of the services that have been made.
+        <br />
+        Application Documentation: In addition, I am also in charge of documenting the applications that have been
+        developed. This documentation includes descriptions of the app's features, configurations, and usage guides.
+        This documentation is important to make it easier for users to understand and use the application properly.PISPK
+        Service Development: I am responsible for developing the PISPK Service. This service is an application that has
+        been used nationally and has been implemented in various health centers in Indonesia. My job is to make sure
+        development runs smoothly and meets user needs.
+        <br />
+        Notification Service Development: Apart from that, I am also involved in the development of the Notification
+        Service. This service aims to send notifications to users, manage notifications, and log related notifications.
+        I am responsible for developing and ensuring optimal functionality of this service.
+        <br />
+        Data Engineer Development: I am also involved in the development of a Data Engineer, whose job is to carry out
+        ETL (Extract, Transform, Load) processes for data used in dashboard applications. In this case, I am responsible
+        for ensuring the data is available properly and can be accessed through the dashboard application.
+        <br />
+        Service Testing: As part of my work, I also test the services that have been developed. This aims to ensure
+        optimal quality and performance of the services that have been made.
+        <br />
+        Application Documentation: In addition, I am also in charge of documenting the applications that have been
+        developed. This documentation includes descriptions of the app's features, configurations, and usage guides.
+        This documentation is important to make it easier for users to understand and use the application properly.
       </p>
     ),
   },
@@ -325,8 +374,8 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'viantonugroho@gmail.com',
+      href: 'mailto:viantonugroho@gmail.com',
     },
     {
       type: ContactType.Location,
@@ -352,7 +401,7 @@ export const contact: ContactSection = {
 export const socialLinks: Social[] = [
   {label: 'Github', Icon: GithubIcon, href: 'https://github.com/viantonugroho11'},
   {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/tbakerx/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/muhammad-novianto-nugroho-5993351b4'},
+  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/viantonugroho'},
+  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/'},
 ];
