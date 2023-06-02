@@ -1,4 +1,4 @@
-# React JS Resume Website Template
+<!-- # React JS Resume Website Template
 
 ![ReactJS Resume Website Template](resume-screenshot.jpg?raw=true 'ReactJS Resume Website Template')
 
@@ -81,4 +81,4 @@ Deploying your new site to Vercel is simple, and can be done by following their 
 ## Forkers
 
 [![Forkers repo roster for @tbakerx/react-resume-template](https://reporoster.com/forks/dark/tbakerx/react-resume-template)](https://github.com/tbakerx/react-resume-template/network/members)
-
+ -->

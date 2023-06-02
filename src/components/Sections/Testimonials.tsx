@@ -70,8 +70,8 @@ const Testimonials: FC = memo(() => {
   }
 
   return (
-    <Section noPadding sectionId={SectionId.Testimonials}>
-      <div
+    <Section noPadding sectionId={SectionId.Hero}>
+      {/* <div
         className={classNames(
           'flex w-full items-center justify-center bg-cover bg-center px-4 py-16 md:py-24 lg:px-8',
           parallaxEnabled && 'bg-fixed',
@@ -108,7 +108,7 @@ const Testimonials: FC = memo(() => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </Section>
   );
 });
