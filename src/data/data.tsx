@@ -316,7 +316,9 @@ export const experience: TimelineItem[] = [
         <br />
         Application Documentation: In addition, I am also in charge of documenting the applications that have been
         developed. This documentation includes descriptions of the app's features, configurations, and usage guides.
-        This documentation is important to make it easier for users to understand and use the application properly.PISPK
+        This documentation is important to make it easier for users to understand and use the application properly.
+        <br />
+        PISPK
         Service Development: I am responsible for developing the PISPK Service. This service is an application that has
         been used nationally and has been implemented in various health centers in Indonesia. My job is to make sure
         development runs smoothly and meets user needs.
